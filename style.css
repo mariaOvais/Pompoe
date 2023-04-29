@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+       
+        .heroclass{
+            background-image: url(images/cover.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* height: 600px; */
+           
+          
+
+        }
+       .headerclass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+        .btns{
+            background-color: brown;
+            height: 50px;
+            width: 100%;
+            border-radius: 0px;
+            color: aliceblue;
+            border: none;
+        }
+        .btns:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        .nav-link:hover{
+            color: black;
+
+        }
+        .nav-link{
+            font-weight: 500;
+        }
+        .category1{
+            background-color: #e4b366;
+        
+        }
+        .category2{
+            background-color: #f05b10;
+
+        }
+        .category3{
+            background-color: #a21010;
+            
+        }
+        .category{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 30px solid rgba(0, 0, 0, 0.05);
+
+        }
+        .and{
+            color: #a21010;
+            font-size: 50px;
+            font-weight: 400;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .part2{
+            margin: 40px;
+        }
+      .part2 h6{
+        color: #a21010;
+      }
+      .vases{
+        margin-top: 0px;
+      }
+      .ctgy{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+
+      }
+      .cart{
+        border-left: 1px solid gray;
+      }
+      .navbar{
+        width: 100%;
+        height: 80px;
+        position: sticky ;
+        top: 0;
+        background-color: #fff;
+        z-index: 3;
+
+      }
+      .navbar-brand{
+        margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+      }
+      .heropart{
+        margin: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .heropart h6{
+        color: #c07676;
+        letter-spacing: 2px;
+
+      }
+      .gallery div img{
+        border-bottom: 1px solid gray;
+        opacity: 0.9;
+        overflow: hidden;
+    }
+      .gallery img:hover{
+        /* transform: scale(1.2, 0.9); */
+        opacity: 1;
+    
+      }
+      .btns{
+        margin-top: 5%;
+        background-color: #a21010;
+        width: 15%;
+       
+
+      }
+      .btns:hover{
+        background-color: black;
+      }
+       .special{
+        color: #a21010;
+       }
+       .cover{
+        height: 600px;
+        margin-top: 10%;
+        background-image: url(images/pic7.jpeg);
+        background-size: cover;
+        padding-top: 250px;
+        padding-left: 100px;
+       }
+       .tick{
+        background-color: #a21010;
+        padding: 10px 30px;
+        height: 65px;
+        color: #fff;
+        border: none;
+       }
+       .tick:hover{
+        background-color: black;
+    
+       }
+       .nov{
+        color: #df8181;
+       }
+       .para{
+        color: grey;
+       }
+       .ptn{
+        background-color: black;
+        padding: 10px 50px;
+        color: #fff;
+        height: 45px;
+        border: none;
+        letter-spacing: 1px;
+       }
+       .ptn:hover{
+        background-color: #a21010;
+       }
+       .abc{
+        width: 100%;
+        margin: 60px;
+        display: flex;
+        justify-content: center;
+        
+
+       }
+       .tri{
+        color: rgb(171, 169, 169);
+        margin: 0;
+       }
+       .form{
+        padding: 10px 70px;
+       }
+       .email{
+        position: relative;
+        left: 50px;
+        width: 40px;
+        height: 30px;
+        top: 10px;
+        
+
+       }
+       .meta{
+        height: 20px;
+       }
+       .footer{
+        padding-top: 80px ;
+        padding-bottom: 60px;
+        background-color: #fffbfb;
+        border-top: 1px solid rgb(213, 213, 213);
+        border-bottom: 1px solid gray;
+       }
+       .final{
+        background-color: rgb(239, 236, 236);
+        padding: 20px 0;
+       }
+       .news{
+        margin-top: 100px;
+        width: 80px;
+        height: 80px;
+        background-color: #ebb96a;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+
+
+
+        /* -----------------------------------------about */
+        .coverabout{
+          background-image: linear-gradient(90deg, #f8f6f4 30%, transparent), url(images/cover\ about.jpg);
+          background-position: 0px 0px, 60% 67%;
+          background-size: auto, cover;
+          background-repeat: repeat, no-repeat;
+         height: 500px;
+        }
+        .innerpart{
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+         padding-top: 190px;
+         padding-left: 70px;
+        
+        }
+        .crew{
+            color: #da7f7f;
+            letter-spacing: 3px;
+    
+        }
+        .artist{
+            padding-top: 120px;
+            background-color: rgb(245, 243, 243);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .round{
+            height: 100px;
+            border-radius: 50%;
+            width: 100px;
+            
+        }
+        .talented{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(245, 243, 243);
+            padding-bottom: 150px;
+            padding-top: 100px;
+              
+        }
+        .vase{
+          position: relative;
+          left: 50px;
+          top: 20px;
+          height: 500px;
+          width: 300px;
+          display: inline-block;
+          z-index: 1;
+        }
+        .brownvase{
+          position: relative;
+          right: 50px;
+          bottom: 400px;
+          display: inline-block;
+          height: 350px;
+
+        }
+        .text{
+          display: flex;
+          justify-content: center;
+          /* align-items: center; */
+          flex-direction: column;
+        }
+        .sumup{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            box-sizing: border-box;
+            height: 350px;
+            padding: 40px;
+            width: 80%;
+            
+          
+        }
+
+
+
+        /* ----------------------------------------shoppage-------------------- */
+        .covershop{
+          background-image: linear-gradient(90deg, #f8f6f4 30%, transparent), url(images/shopcover.jpg);
+          background-position: 0px 0px, 60% 67%;
+          background-size: auto, cover;
+          background-repeat: repeat, no-repeat;
+         height: 500px;
+        }
+        .shoppart{
+         padding-left: 50px;
+         padding-top: 170px;
+        }
+        .shopgallery{
+          margin-top: 80px;
+        }
+        .shopmain{
+          background-color: rgb(240, 237, 237);
+          padding: 40px;
+        }
+        .special{
+          overflow: hidden;
+        }
+        .special img{
+          transition: 0.3s;
+          opacity: 0.8;
+        }
+        .special img:hover{
+         transform: scale(1.1, 1.1);
+          opacity: 1;
+        }
+
+
+        /* -----------------------------------contact-------------------- */
+        .covercontact{
+          background-image: linear-gradient(90deg, #f8f6f4 30%, transparent), url(images/contactcover.jpg);
+          background-position: 0px 0px, 60% 67%;
+          background-size: auto, cover;
+          background-repeat: repeat, no-repeat;
+         height: 500px;
+        }
+        .contactpart{
+          padding-left: 50px;
+          padding-top: 180px;
+        }
+        .contactdetails{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          padding-bottom: 50px;
+          
+        }
+        .imagepart{
+          height: 200px;
+          background-image: url(images/contactnew.jpeg);
+          background-size: cover;
+          background-position: 0 50%;
+        }
+        .details{
+          padding: 50px;
+          background-color:white;
+        }
+        .fname label{
+          font-size: 15px;
+
+        }
+        .femail label{
+          font-size: 15px;
+
+        }
+        .lastbtns{
+          color: white;
+          height: 70px;
+          width: 190px;
+          background-color: #a21010;
+          border: none;
+        }
+        .lastbtns:hover{
+          background-color: #c54303;
+        }
+
+        .msg{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding: 40px;
+          width: 600px;
+        }
+        .maindiv{
+          background-color: rgb(237, 236, 236);
+          padding-bottom: 100px;
+        }
+
+        /* ---------------------------------productdetail-------------- */
+        .heroproduct{
+          padding-top: 130px;
+        }
+        .productimg img{
+          height: 600px;
+        }
+        .productimg{
+          padding-top: 70px;
+         
+        }
+        .rel{
+          padding-top: 130px;
+          padding-left: 100px;
+        }
+        
+        .buttonbtn{
+           background-color: #a21010;
+          height: 65px;
+          width: 190px;
+          border: none;
+          color: #fff;
+        }
+        .buttonbtn:hover{
+          background-color: black;
+        }
+      .uniquebtn{
+        padding: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .anchortag a{
+        text-decoration: none;
+        color: black;
+      }
+      .productmain{
+        letter-spacing: 2px;
+        color: #ea8b8b;
+      }
+      .papa p{
+        color: rgb(139, 139, 139);
+       
+      }
+      
